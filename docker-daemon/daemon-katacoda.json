@@ -1,0 +1,10 @@
+{
+  "bip":"172.18.0.1/24",
+  "debug": true,
+  "storage-driver": "overlay",
+  "insecure-registries": ["registry.test.training.katacoda.com:4567"],
+  "log-driver": "fluentd",
+  "log-opts": {
+    "fluentd-address": "fluentdhost:24224"
+  }
+}
