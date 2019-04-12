@@ -5,6 +5,6 @@
   "insecure-registries": ["registry.test.training.katacoda.com:4567"],
   "log-driver": "fluentd",
   "log-opts": {
-    "fluentd-address": "fluentdhost:24224"
+    "fluentd-address": "localhost:24224"
   }
 }
